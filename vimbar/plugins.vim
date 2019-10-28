@@ -26,7 +26,7 @@ Plug 'funorpain/vim-cpplint', {'for' : ['cpp', 'c', 'arduino'] }          " Cppl
 Plug 'ap/vim-css-color', {'for': ['css'] }                                " Colored css
 Plug 'suan/vim-instant-markdown'                                          " Display Markdown
 "Plug 'yashsriv/vim-instant-pandoc'                                        " Display Markdown
-Plug 'ensime/ensime-vim', { 'do': function('DoRemote') }                  " Ensime
+"Plug 'ensime/ensime-vim', { 'do': function('DoRemote') }                  " Ensime
 Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }                       " Javascript
 Plug 'vim-pandoc/vim-pandoc'                                              " Pandoc Helper utils
 Plug 'vim-pandoc/vim-pandoc-syntax'                                       " Pandoc Syntax
@@ -65,6 +65,7 @@ Plug 'Shougo/vimproc', { 'do': 'make' }                       " Javascript
 Plug 'tpope/vim-repeat'                                           " repeat command
 Plug 'mhinz/vim-startify'                                         " Start screen
 Plug 'sakshamsharma/encfile-mode'
+Plug 'ctrlpvim/ctrlp.vim'
 
 " Autocomplete
 if has('nvim')

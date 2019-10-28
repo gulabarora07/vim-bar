@@ -39,7 +39,7 @@ But for instant comfort,
 mv ~/.vim ~/.vim.bak
 mv ~/.vimrc ~/.vimrc.bak
 # Clone vim folder
-git clone https://github.com/yashsriv/vim-bar.git ~/.vim
+git clone https://github.com/gulabarora07/vim-bar.git ~/.vim
 # For vim
 ln -s ~/.vim/init.vim ~/.vimrc
 # For NeoVim
