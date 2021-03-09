@@ -9,8 +9,8 @@ augroup filetype_specific
   autocmd filetype svn,*commit*,markdown setlocal spell                             " Spell Check
   autocmd filetype svn,*commit*,markdown setlocal textwidth=72                      " Looks good
   autocmd FileType make setlocal noexpandtab                                        " In Makefiles DO NOT use spaces instead of tabs
-  autocmd FileType c setlocal equalprg=/usr/bin/astyle\ -A14s2pHUxG tabstop=4 shiftwidth=4 expandtab                 " Format code as per google guidelines for c
-  autocmd FileType cpp setlocal equalprg=/usr/bin/astyle\ -A14s2pHUxG tabstop=4 shiftwidth=4 expandtab              " Format code as per google guidelines for cpp
+  autocmd FileType c setlocal equalprg=/usr/bin/astyle\ -A14s2pHUxG tabstop=2 shiftwidth=2 expandtab                 " Format code as per google guidelines for c
+  autocmd FileType cpp setlocal equalprg=/usr/bin/astyle\ -A14s2pHUxG tabstop=2 shiftwidth=2 expandtab             " Format code as per google guidelines for cpp
   autocmd FileType arduino setlocal equalprg=/usr/bin/astyle\ -A14s2pHUxG           " Format code as per my guidelines for arduino
   autocmd FileType java setlocal equalprg=/usr/bin/astyle\ -A14s2pHUxG              " Format code as per my guidelines for java
   autocmd FileType python setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4   " Python Spacing rules

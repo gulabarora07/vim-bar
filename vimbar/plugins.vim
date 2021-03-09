@@ -43,7 +43,7 @@ Plug 'tpope/vim-speeddating'                                      " Incrementing
 Plug 'tpope/vim-surround'                                         " Surround Command for textobjects
 Plug 'tpope/vim-characterize'                                     " Get info of unicode character using `ga`
 Plug 'Shougo/echodoc.vim'                                         " show documentation by echoing
-Plug 'nathanaelkane/vim-indent-guides'                            " Show indents
+"Plug 'nathanaelkane/vim-indent-guides'                            " Show indents
 Plug 'scrooloose/nerdcommenter'                                   " Good Commenting
 Plug 'scrooloose/nerdtree' | Plug 'Xuyuanp/nerdtree-git-plugin'   " File Browsing
 Plug 'godlygeek/tabular'                                          " Table Settings
@@ -78,8 +78,9 @@ if has('nvim')
   Plug 'mhartington/deoplete-typescript'                          " Typescript Completion
   Plug 'benekastah/neomake'                                       " Neomake
 else
-  Plug 'Shougo/neocomplete.vim'                                   " Fast autocomplete
-  Plug 'scrooloose/syntastic'                                     " Syntax Checker
+"  Plug 'Shougo/neocomplete.vim'                                   " Fast autocomplete
+  Plug 'ervandew/supertab'                                   " Fast autocomplete
+"  Plug 'scrooloose/syntastic'                                     " Syntax Checker
 endif
 Plug 'Shougo/context_filetype.vim'                                " Context filetype feature (suggested for deoplete)
 Plug 'Shougo/neoinclude.vim'                                      " completion results from included files
