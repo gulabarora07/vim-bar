@@ -2,7 +2,6 @@ source ~/.vim/bar.vim
 :set number
 :set autoindent
 :set cursorline
-":color desert
 :set cursorcolumn
 :syntax enable
 :set hlsearch

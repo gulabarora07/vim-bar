@@ -45,7 +45,9 @@ Plug 'tpope/vim-characterize'                                     " Get info of 
 Plug 'Shougo/echodoc.vim'                                         " show documentation by echoing
 "Plug 'nathanaelkane/vim-indent-guides'                            " Show indents
 Plug 'scrooloose/nerdcommenter'                                   " Good Commenting
-Plug 'scrooloose/nerdtree' | Plug 'Xuyuanp/nerdtree-git-plugin'   " File Browsing
+Plug 'scrooloose/nerdtree'                                        " File Browsing
+Plug 'Xuyuanp/nerdtree-git-plugin'                                " File Browsing
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'                    " File Browsing
 Plug 'godlygeek/tabular'                                          " Table Settings
 Plug 'majutsushi/tagbar'                                          " Tagbar ( Display info on structure of code)
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'               " Snippets
@@ -89,8 +91,9 @@ Plug 'editorconfig/editorconfig-vim'                              " Use the edit
 
 " Looks
 Plug 'ntpeters/vim-better-whitespace'                             " Show Trailing Spaces
-Plug 'ryanoasis/vim-devicons'                                     " Special icons for filetypes
+"Plug 'ryanoasis/vim-devicons'                                     " Special icons for filetypes
 Plug 'luochen1990/rainbow'                                        " Rainbow coloured brackets
+Plug 'tpope/vim-fugitive'
 
 call plug#end()                                                   " required
 

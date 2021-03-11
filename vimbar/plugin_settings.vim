@@ -209,3 +209,23 @@ let g:rainbow_conf = {
   \       'css': 0,
   \   }
   \}
+
+" NerdTree
+let g:NERDTreeGitStatusWithFlags = 1
+let g:NERDTreeGitStatusUseNerdFonts = 1
+let g:NERDTreeFileExtensionHighlightFullName = 1
+let g:NERDTreeGitStatusIndicatorMapCustom = {
+                \ 'Modified'  :'✹',
+                \ 'Staged'    :'✚',
+                \ 'Untracked' :'✭',
+                \ 'Renamed'   :'➜',
+                \ 'Unmerged'  :'═',
+                \ 'Deleted'   :'✖',
+                \ 'Dirty'     :'✗',
+                \ 'Ignored'   :'☒',
+                \ 'Clean'     :'✔︎',
+                \ 'Unknown'   :'?'
+                \ }
+let g:NERDTreeGitStatusUntrackedFilesMode = 'all'
+let g:NERDTreeGitStatusShowClean = 1
+let NERDTreeDirArrows = 1
