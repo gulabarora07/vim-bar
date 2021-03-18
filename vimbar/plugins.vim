@@ -32,7 +32,7 @@ Plug 'vim-pandoc/vim-pandoc'                                              " Pand
 Plug 'vim-pandoc/vim-pandoc-syntax'                                       " Pandoc Syntax
 Plug 'vim-pandoc/vim-pandoc-after'                                        " Pandoc After hook
 Plug 'jceb/vim-orgmode'                                                   " OrgMode tools
-Plug 'sheerun/vim-polyglot'                                               " One to rule them all, one to find them, one to bring them all and in the darkness bind them.
+"Plug 'sheerun/vim-polyglot'                                               " One to rule them all, one to find them, one to bring them all and in the darkness bind them.*/
 Plug 'Quramy/tsuquyomi'                                                   " For typescript
 
 " Utilities
